@@ -1,0 +1,18 @@
+<form>
+<view class='form'>
+<view class='input'>
+<view>请输入</view>
+<input class='input-box' placeholder="在此输入资金收支记录 例：买菜 -15"/>
+</view>
+<view>
+<button class='button'>{{text}}</button>
+</view>
+<view class='input'>
+<view>显示最近五条账本记录</view>
+<text>{{record}}</text>
+</view>
+<view>
+<button class='button'>查看您的账本记录</button>
+</view>
+</view>
+</form>

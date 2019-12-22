@@ -1,0 +1,5 @@
+<view>
+<image class="background" style="opacity:{{0.8}}"></image></view>
+<button bindtap='pulse' class='button'>心率</button>
+<button bindtap='indoor' class='button'>室内温度</button>
+<button bindtap='outdoor' class='button'>室外温度</button>

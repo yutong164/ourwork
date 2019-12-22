@@ -1,0 +1,68 @@
+{
+  "pages": [
+
+    "pages/Ahome/home",
+    "pages/heart/heart",
+    "pages/health/health",
+    "pages/money/money",
+    "pages/zhangben/zhangben",
+    "pages/wifi_station/tianqi/tianqi",
+    "pages/outdoors/outdoors",
+    "pages/wifi_station_heart/tianqi/tianqi",
+    "pages/Amoney/Amoney",
+    "pages/index",
+    "pages/found/Goodartical/artical1",
+    "pages/found/Goodartical/collection",
+    "pages/found/Goodartical/feedback",
+    "pages/found/Goodartical/music"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA07A",
+    "navigationBarTitleText": "老年人小助手",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#7A7E83",
+    "selectedColor": "#13227a",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/Ahome/home",
+        "iconPath": "/pages/images/首页.png",
+        "selectedIconPath": "/pages/images/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/health/health",
+        "iconPath": "/pages/images/健康.png",
+        "selectedIconPath": "/pages/images/健康.png",
+        "text": "健康"
+      },
+      {
+        "pagePath": "pages/Amoney/Amoney",
+        "iconPath": "/pages/images/财务.png",
+        "selectedIconPath": "/pages/images/财务.png",
+        "text": "财务"
+      },
+      {
+        "pagePath": "pages/index",
+        "iconPath": "/pages/images/娱乐.png",
+        "selectedIconPath": "/pages/images/娱乐.png",
+        "text": "娱乐"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的"
+    }
+  },
+  "debug": false
+}

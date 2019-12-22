@@ -1,0 +1,10 @@
+<view>
+<image class="background" style="opacity:{{0.7}}"></image></view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+
+<view class="oldHelp">
+  <view>老\t\t人</view>
+  <view>小\t助\t手</view>
+</view>

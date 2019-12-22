@@ -1,0 +1,7 @@
+var temp={
+  temp: function () {
+  wx.navigateTo({
+    url: '../wifi_station/tianqi/tianqi',
+  })
+}
+}

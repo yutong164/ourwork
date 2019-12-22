@@ -1,0 +1,4 @@
+<view>
+<image class="background" style="opacity:{{0.80}}"></image></view>
+<button bindtap='calculate' class='button'>计算器</button>
+<button bindtap='zhangben' class='button'>账本</button>

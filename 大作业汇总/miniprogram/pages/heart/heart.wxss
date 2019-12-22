@@ -1,0 +1,61 @@
+.intro {
+  margin:60px;
+  color:#778899;
+  justify-content:center;
+  font-size: 37rpx;
+  font-weight:bold; 
+  font-family:"宋体";
+}
+page {
+  background-color:    #FFFAF0;     
+}  
+
+.btn1{
+ width: 70%;
+ height: 150rpx;
+ background: linear-gradient( #FFE4E1,  #FFDEAD);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ transition: all 300ms ease;
+ margin:80px;
+ justify-content:center;
+ font-size: 65rpx;
+ font-weight:bold; 
+ font-family:"宋体";
+  }
+.radio-group{
+  left: 10%;
+  top: 10%;
+  color:#f1430e;
+  position: absolute
+}
+
+#input{
+  background-color: #7e18f1;
+  width: 60%;
+  height: 88rpx;
+  top: 45%;
+  left: 18%;
+  position: absolute
+  }
+
+  #text{
+  margin:40px;
+  color:#778899;
+  justify-content:center;
+  font-size: 35rpx;
+  font-weight:bold; 
+  font-family:"宋体";
+  top: 45%;
+  left: 1%;
+  position: absolute;
+  }
+
+  #btn3{
+  height: 88rpx;
+  top: 60%;
+  width: 60%;
+  color:rgb(235, 45, 32);
+  background-color: #6720b8;
+  }

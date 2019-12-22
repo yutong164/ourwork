@@ -1,0 +1,21 @@
+<view>
+<image class="background" style="opacity:{{0.7}}"></image></view>
+<view>
+<view style="padding-top:20px"></view>
+  <view>
+    <text class="weatherdata">{{weatherData}}</text> 
+  </view>
+  <view style="padding-top:20px"></view>
+  <block wx:for="{{futureWeather}}">	
+   <view style="border:1px solid #ccc; margin:5px">		   
+     <view class="date">{{item.date}}</view>		
+     <view class="temp">{{item.temperature}}</view>		
+     <view class="weather">{{item.weather}}</view>		
+     <view class="wind">{{item.wind}}</view>	
+   </view>
+  </block>
+</view>
+<view class="tixing">最近天气很冷，您要多穿点衣服呀！出门记得戴帽子和手套呦~还要记得带手机！</view>
+
+
+

@@ -1,0 +1,27 @@
+.background{
+  background-image: url(http://pic.51yuansu.com/backgd/cover/00/29/39/5bc155617c4a0.jpg%21/fw/780/quality/90/unsharp/true/compress/true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+  filter: blur(0rpx);
+}
+.button{
+  color:Maroon;
+  width: 80%;
+  margin-top: 130rpx;
+  background-color:coral;
+  border-radius: 98rpx;
+  font-size:25px;
+}
+.button::after{
+  border-radius: 98rpx;
+  border:0;
+}
+.btnImg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}

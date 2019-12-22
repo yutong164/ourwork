@@ -1,0 +1,11 @@
+<!--当前为停止状态  -->
+<view style="width:250rpx;height:250rpx;left:250rpx;top:12rpx;position:relative;" wx:if="{{isplay==false}}" bindtap='play'>
+  <image style="width:100%;height:100%;border-radius:50%;" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577597087&di=99648eb709e13293fe8b320e8b3b3236&imgtype=jpg&er=1&src=http%3A%2F%2Fn.sinaimg.cn%2Ftranslate%2Fw1080h607%2F20180301%2FpUh8-fwnpcns4716686.jpg' />
+  <image src='/pages/images/播放.png' style="width:100rpx;height:100rpx;position:absolute;left:75rpx;top:75rpx;"></image>
+</view>
+<!--当前为播放状态  -->
+<view style="width:250rpx;height:250rpx;left:250rpx;top:12rpx;position:relative;" wx:if="{{isplay==true}}" bindtap='stop'>
+  <image style="width:100%;height:100%;border-radius:50%;" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=330484133,3953683871&fm=26&gp=0.jpg" />
+  <image src='/pages/images/播放中.png' style="width:100rpx;height:100rpx;position:absolute;left:75rpx;top:75rpx;"></image>
+</view>
+<slider style="width:500rpx;margin-left:125rpx;"></slider>
